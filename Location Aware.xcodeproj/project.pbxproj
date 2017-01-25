@@ -12,6 +12,7 @@
 		D9E189A71E2A421200262221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E189A51E2A421200262221 /* Main.storyboard */; };
 		D9E189A91E2A421200262221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E189A81E2A421200262221 /* Assets.xcassets */; };
 		D9E189AC1E2A421200262221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E189AA1E2A421200262221 /* LaunchScreen.storyboard */; };
+		D9E189B51E2A43B700262221 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E189B41E2A43B700262221 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D9E189A81E2A421200262221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E189AB1E2A421200262221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9E189AD1E2A421200262221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E189B41E2A43B700262221 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E189B51E2A43B700262221 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				D9E189A01E2A421200262221 /* Location Aware */,
 				D9E1899F1E2A421200262221 /* Products */,
+				D9E189B31E2A43B700262221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				D9E189AD1E2A421200262221 /* Info.plist */,
 			);
 			path = "Location Aware";
+			sourceTree = "<group>";
+		};
+		D9E189B31E2A43B700262221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E189B41E2A43B700262221 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
